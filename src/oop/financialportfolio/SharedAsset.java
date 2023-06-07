@@ -1,6 +1,7 @@
 package OOP.financePortfolio;
 
 public abstract class SharedAsset implements Asset {
+//    we don't want users creating instances of this class as it was part of an implementation
     private String symbol;
     private double totalCost;
     private double currentPrice;

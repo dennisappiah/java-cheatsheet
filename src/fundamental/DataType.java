@@ -1,11 +1,12 @@
 package foundation;
 
+import java.util.Date;
 import java.util.Scanner;
 
 public class DataType {
   public static void main(String[] args) {
 // Primitive Types -> integer (long, short, byte, int), float, boolean, char
-// Non-Primitive -> String, Array
+// Non-Primitive -> String, Array, Date
 
       int a = 10;
       int h = 20;
@@ -36,6 +37,10 @@ public class DataType {
 
       System.out.println("bmi= " + bmi);
 
+      Date now = new Date();
+//      System.out.println(now);
+      long time = now.getTime();
+      System.out.println(time);
   }
 }
 
