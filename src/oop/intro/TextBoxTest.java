@@ -1,6 +1,6 @@
 package oop.intro;
 
-public class Main {
+public class TextBoxTest {
     public static void main(String[] args){
         var textbox1 = new TextBox();
 

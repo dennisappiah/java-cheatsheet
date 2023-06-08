@@ -2,7 +2,7 @@ package oop.intro;
 
 public class TextBox {
     // states or fields or attributes
-    public String text;
+    public String text = "";
 
     private static int id = 0;
 
