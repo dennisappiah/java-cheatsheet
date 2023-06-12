@@ -1,4 +1,4 @@
-package OOP.financePortfolio;
+package financialportfolio;
 
 public interface Asset {
     // How much is the asset is worth

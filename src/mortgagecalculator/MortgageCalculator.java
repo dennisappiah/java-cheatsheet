@@ -1,7 +1,7 @@
 package mortgagecalculator;
 
 
-public class MortgageCalculator {
+public class MortgageCalculator implements IMortgageCalculator {
     public final static byte MONTHS_IN_YEAR = 12;
     public final static byte PERCENT = 100;
 
@@ -52,5 +52,6 @@ public class MortgageCalculator {
     private int getNumberOfPayments() {
         return years * MONTHS_IN_YEAR;
     }
+
 
 }

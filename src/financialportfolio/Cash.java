@@ -1,4 +1,4 @@
-package OOP.financePortfolio;
+package financialportfolio;
 
 public class Cash implements Asset{
     private double amount;

@@ -1,7 +1,6 @@
-package OOP.financePortfolio;
+package financialportfolio;
 
 public abstract class SharedAsset implements Asset {
-//    we don't want users creating instances of this class as it was part of an implementation
     private String symbol;
     private double totalCost;
     private double currentPrice;
@@ -20,9 +19,6 @@ public abstract class SharedAsset implements Asset {
         return currentPrice;
     }
 
-    public void setCurrentPrice(double currentPrice){
-        this.currentPrice = currentPrice;
-    }
 
     public abstract double calculateMarketValue();
 

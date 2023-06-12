@@ -1,4 +1,5 @@
-package foundation;
+package fundamental;
+import java.util.Scanner;
 
 public class Loop {
     public static void main(String[] args) {
@@ -21,7 +22,40 @@ public class Loop {
         for (int e: a)
             System.out.println(e);
 
-        // While Loop - looping through countless scenarios
+        // Write a Java Program that allows users to enter 5 numbers and give their sum
+        System.out.println("Please enter the 5 numbers");
 
+        Scanner scanner = new Scanner(System.in);
+
+        int[] my_array = new int[10];
+
+        // populating array
+        for (int i= 0; i < my_array.length; i++) {
+            my_array[i] = scanner.nextInt();
+        }
+
+        // finding sum
+        int sum = 0;
+        for(int e: my_array) {
+            sum = sum + e;
+        }
+
+        System.out.println("sum= "+ sum);
+        float average = (float) sum/ my_array.length;
+        System.out.println("Average= "+ average);
+
+        // While Loop - looping through countless scenarios
+        String inputText = "";
+
+        while (!inputText.equals("quit")){
+            System.out.println("input");
+
+            inputText = scanner.next().toLowerCase();
+            if (inputText.equals("pass"))
+                continue;   // moves a control statement to beginning a loop
+            if (inputText.equals("quit"))
+                break;     // terminates a loop
+            System.out.println(inputText);
+        }
     }
 }

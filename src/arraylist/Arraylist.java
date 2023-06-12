@@ -2,7 +2,7 @@ package arraylist;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class Main {
+public class Arraylist {
     public static void main(String[] args) {
         //we can only pass non-primitive data types as parameters of the ArrayList
 

@@ -1,4 +1,4 @@
-package OOP.financePortfolio;
+package financialportfolio;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,6 +20,5 @@ public class Main {
         Asset asset2 = new Stock("SS", 30, 20);
         System.out.println(asset.calculateMarketValue());
         System.out.println(asset2.calculateProfit());
-
     }
 }

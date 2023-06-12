@@ -4,9 +4,9 @@ import java.text.NumberFormat;
 
 public class MortgageReport {
     private final NumberFormat currencyInstance;
-    private MortgageCalculator calculator;
+    private IMortgageCalculator calculator;
 
-    public MortgageReport(MortgageCalculator calculator) {
+    public MortgageReport(IMortgageCalculator calculator) {
         this.calculator = calculator;
         //once the field is set in the constructor, it cannot be set
         currencyInstance = NumberFormat.getCurrencyInstance();

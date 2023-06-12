@@ -1,4 +1,4 @@
-package OOP.financePortfolio;
+package financialportfolio;
 
  public class DividendStock extends  Stock{
    private double dividends;

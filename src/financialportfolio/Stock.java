@@ -1,4 +1,4 @@
-package OOP.financePortfolio;
+package financialportfolio;
 
 public class Stock extends SharedAsset {
     private int totalShares;

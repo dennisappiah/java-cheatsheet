@@ -1,4 +1,4 @@
-package OOP.financePortfolio;
+package financialportfolio;
 
 public class MutualFund extends SharedAsset{
     private double totalShares;
