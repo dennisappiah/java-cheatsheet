@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 
-//list interface have access to the index of the collection
+//list interface uses the index of the collection to access elements
 public class ListInterfaceDemo {
     public static void show() {
         List<String> list = new ArrayList<>();
