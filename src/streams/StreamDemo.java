@@ -91,6 +91,6 @@ public class StreamDemo {
                         Collectors.mapping(Movie::getTitle, Collectors.joining(","))));
 
     System.out.println(groupedElements);
-
+    System.out.println(grouped);
     }
 }
